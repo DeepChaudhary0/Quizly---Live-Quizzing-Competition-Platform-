@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-container-high: #e1e8fd;
+  --color-outline: #737686;
+  --color-error: #ba1a1a;
+  --color-surface-variant: #dce2f7;
+  --color-on-primary-container: #eeefff;
+  --color-secondary: #505f76;
+  --color-on-surface-variant: #434655;
+  --color-on-error: #ffffff;
+  --color-inverse-primary: #b4c5ff;
+  --color-on-primary: #ffffff;
+  --color-inverse-surface: #293040;
+  --color-on-primary-fixed-variant: #003ea8;
+  --color-surface-tint: #0053db;
+  --color-tertiary-fixed: #7ffc97;
+  --color-surface-bright: #f9f9ff;
+  --color-on-tertiary: #ffffff;
+  --color-on-secondary-fixed: #0b1c30;
+  --color-surface: #f9f9ff;
+  --color-surface-container-highest: #dce2f7;
+  --color-primary-fixed: #dbe1ff;
+  --color-surface-container: #e9edff;
+  --color-tertiary-fixed-dim: #62df7d;
+  --color-inverse-on-surface: #edf0ff;
+  --color-on-secondary-container: #54647a;
+  --color-outline-variant: #c3c6d7;
+  --color-on-tertiary-fixed: #002109;
+  --color-tertiary: #006329;
+  --color-primary: #004ac6;
+  --color-surface-container-low: #f1f3ff;
+  --color-on-error-container: #93000a;
+  --color-tertiary-container: #007f36;
+  --color-error-container: #ffdad6;
+  --color-on-surface: #141b2b;
+  --color-background: #f9f9ff;
+  --color-surface-dim: #d3daef;
+  --color-primary-fixed-dim: #b4c5ff;
+  --color-primary-container: #2563eb;
+  --color-on-primary-fixed: #00174b;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-background: #141b2b;
+  --color-on-tertiary-fixed-variant: #005320;
+  --color-on-tertiary-container: #c7ffca;
+  --color-on-secondary-fixed-variant: #38485d;
+  --color-secondary-fixed: #d3e4fe;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d0e1fb;
+  --color-secondary-fixed-dim: #b7c8e1;
+
+  --font-inter: 'Inter', sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+}
+
+/* Material Symbols sizing helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}

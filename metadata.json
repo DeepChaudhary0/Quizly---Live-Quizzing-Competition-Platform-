@@ -1,0 +1,6 @@
+{
+  "name": "Quizly - Live Quizzing & Competition Platform",
+  "description": "Interactive public quiz hosting, real-time live events, and competitive community scheduling platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
